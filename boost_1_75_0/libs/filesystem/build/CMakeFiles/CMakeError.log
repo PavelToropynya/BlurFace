@@ -1,0 +1,51 @@
+Performing C++ SOURCE FILE Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIM failed with the following output:
+Change Dir: /Users/macbook/Downloads/boost_1_75_0/libs/filesystem/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_19e82/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_19e82.dir/build.make CMakeFiles/cmTC_19e82.dir/build
+Building CXX object CMakeFiles/cmTC_19e82.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBOOST_FILESYSTEM_HAS_STAT_ST_MTIM  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o CMakeFiles/cmTC_19e82.dir/src.cxx.o -c /Users/macbook/Downloads/boost_1_75_0/libs/filesystem/build/CMakeFiles/CMakeTmp/src.cxx
+In file included from /Users/macbook/Downloads/boost_1_75_0/libs/filesystem/build/CMakeFiles/CMakeTmp/src.cxx:1:
+/Users/macbook/Downloads/boost_1_75_0/libs/filesystem/config/has_stat_st_mtim.cpp:8:10: fatal error: 'platform_config.hpp' file not found
+#include "platform_config.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_19e82.dir/src.cxx.o] Error 1
+make: *** [cmTC_19e82/fast] Error 2
+
+
+Source file was:
+#include </Users/macbook/Downloads/boost_1_75_0/libs/filesystem/config/has_stat_st_mtim.cpp>
+Performing C++ SOURCE FILE Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIMENSEC failed with the following output:
+Change Dir: /Users/macbook/Downloads/boost_1_75_0/libs/filesystem/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_90495/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_90495.dir/build.make CMakeFiles/cmTC_90495.dir/build
+Building CXX object CMakeFiles/cmTC_90495.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBOOST_FILESYSTEM_HAS_STAT_ST_MTIMENSEC  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o CMakeFiles/cmTC_90495.dir/src.cxx.o -c /Users/macbook/Downloads/boost_1_75_0/libs/filesystem/build/CMakeFiles/CMakeTmp/src.cxx
+In file included from /Users/macbook/Downloads/boost_1_75_0/libs/filesystem/build/CMakeFiles/CMakeTmp/src.cxx:1:
+/Users/macbook/Downloads/boost_1_75_0/libs/filesystem/config/has_stat_st_mtimensec.cpp:8:10: fatal error: 'platform_config.hpp' file not found
+#include "platform_config.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_90495.dir/src.cxx.o] Error 1
+make: *** [cmTC_90495/fast] Error 2
+
+
+Source file was:
+#include </Users/macbook/Downloads/boost_1_75_0/libs/filesystem/config/has_stat_st_mtimensec.cpp>
+Performing C++ SOURCE FILE Test BOOST_FILESYSTEM_HAS_STAT_ST_MTIMESPEC failed with the following output:
+Change Dir: /Users/macbook/Downloads/boost_1_75_0/libs/filesystem/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ddf6/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_4ddf6.dir/build.make CMakeFiles/cmTC_4ddf6.dir/build
+Building CXX object CMakeFiles/cmTC_4ddf6.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DBOOST_FILESYSTEM_HAS_STAT_ST_MTIMESPEC  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk -o CMakeFiles/cmTC_4ddf6.dir/src.cxx.o -c /Users/macbook/Downloads/boost_1_75_0/libs/filesystem/build/CMakeFiles/CMakeTmp/src.cxx
+In file included from /Users/macbook/Downloads/boost_1_75_0/libs/filesystem/build/CMakeFiles/CMakeTmp/src.cxx:1:
+/Users/macbook/Downloads/boost_1_75_0/libs/filesystem/config/has_stat_st_mtimespec.cpp:8:10: fatal error: 'platform_config.hpp' file not found
+#include "platform_config.hpp"
+         ^~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4ddf6.dir/src.cxx.o] Error 1
+make: *** [cmTC_4ddf6/fast] Error 2
+
+
+Source file was:
+#include </Users/macbook/Downloads/boost_1_75_0/libs/filesystem/config/has_stat_st_mtimespec.cpp>
